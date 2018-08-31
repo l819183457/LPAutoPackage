@@ -433,15 +433,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20180831.01;
+				DEVELOPMENT_TEAM = BSNMQ3E4FW;
 				INFOPLIST_FILE = LPAutoPackage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pill.LPAutoPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehking.LPAutoPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b3c913e-5eef-4169-a194-bbcd8c1df273";
+				PROVISIONING_PROFILE_SPECIFIER = gonggong_test_018;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -449,15 +454,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20180831.01;
+				DEVELOPMENT_TEAM = BSNMQ3E4FW;
 				INFOPLIST_FILE = LPAutoPackage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pill.LPAutoPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehking.LPAutoPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b3c913e-5eef-4169-a194-bbcd8c1df273";
+				PROVISIONING_PROFILE_SPECIFIER = gonggong_test_018;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
