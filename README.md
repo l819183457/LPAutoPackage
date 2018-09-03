@@ -1,5 +1,5 @@
-#运行
-  * 请参照执行方法
+# 运行
+  	* 到项目目录下执行 (请参照执行方法)
 
 # 环境配置
 ## 检查是否安装 ruby
@@ -66,10 +66,8 @@
     
     #指定项目的scheme名称
     scheme=“TestCI”
-    #蒲公英api_key和user_key
-    api_key=“”
-    user_key=“”
-    
+
+
     # 任务脚本
     platform :ios do
     lane :development_build do|options|
@@ -92,10 +90,6 @@
     # 指定输出文件夹
     output_directory:"./fastlane/build",
     )
-    
-    puts "开始上传蒲公英"
-    # 开始上传蒲公英
-    pgyer(api_key: “#{api_key}”, user_key: “#{user_key}”)
     
     end
     end
