@@ -27,6 +27,7 @@
 ## 修改 Fastfile项目
         * 写入脚本内容(使用的是ruby)具体代码请参照demo实现
 ## 执行方法
+	* 打开Terminal.app  进入项目目录
 	* fastlane development_build   代码里的类
 ## Fastlane 输入内容
     * puts "请选择要打的URL环境：（1: DEV版本=90001，2: QA版本=90002,3: 生产版本=90003）"      
