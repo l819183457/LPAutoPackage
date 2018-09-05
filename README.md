@@ -32,7 +32,7 @@
 ## Fastlane 输入内容
     * puts "请选择要打的URL环境：（1: DEV版本=90001，2: QA版本=90002,3: 生产版本=90003）"      
       scheme = STDIN.gets
-## 代码实现 demo
+## 代码实现 demo(最新的请去项目中查看)
 
     # 定义fastlane版本号
     fastlane_version “2.46.1” 
